@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.menu{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #BBBBBB;
+    padding: 35px;
+}
+
+.menu h1{
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.menu i{
+    font-size: 30px;
+    color: #fff;
+}
+
+/* --  biography ------------------------------------------------------------------------------  */
+
+.biography{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.biography h1{
+    color: #F7D7C8;
+    font-size: 68px;
+    padding: 20px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.biography img{
+    margin-top: 20px;
+}
+
+.biography h3{
+    color: #F7D7C8;
+    font-weight: normal;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.biography p{
+    width: 850px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: gray;
+    text-align:justify;
+}
+
+.biography .icons{
+    width: 250px;
+    padding: 50px;
+    font-size: 35px;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -- Simpe Headline  ------------------------------------------------------------------------------  */
+
+.simple-headline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.simple-headline .left-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 80px;
+    gap: 70px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.simple-headline .left-right .left{
+    justify-content: start;
+    width: 530px;
+    height: 450px;
+    padding: 20px;
+}
+
+.simple-headline .left-right .left h2{
+    text-align: start;
+    font-size: 40px;
+    color: #F7D7C8;
+}
+
+.simple-headline .left-right .left h3{
+    font-size: 25px;
+    padding: 10px 0;
+    font-weight: normal;
+}
+
+.simple-headline .left-right .right{
+    width: 500px;
+    height: 450px;
+    padding: 20px;
+}
+
+.simple-headline .left-right .right h4{
+    font-size: 25px;
+    color: #F7D7C8;
+    font-weight: normal;
+}
+
+.simple-headline .left-right .right p{
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.simple-headline .left-right .right .icon{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    color: #F7D7C8;
+}
+
+.simple-headline .left-right .right .icon i{
+    font-size: 30px;
+    color: #F7D7C8;
+}
+
+.simple-headline .page i{
+    color: #fff;
+    font-size: 60px;
+    padding: 50px;
+}
+
+.simple-headline hr{
+    width: 50%;
+    color: #BBBBBB;
+}
+
+/* --   Design ------------------------------------------------------------------------------  */
+
+.design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.design .header{
+    width: 50%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.design .header h1{
+    font-size: 50px;
+    color: #F7D7C8;
+    font-weight: 600;
+}
+
+.design .header i{
+    font-size: 80px;
+    padding: 20px;
+}
+
+.design .header h3{
+    font-size: 30px;
+    color: #F7D7C8;
+    font-weight: normal;
+}
+
+.design .images{
+    display: grid;
+    grid-template-columns: repeat(3, 350px); 
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 130px 0;
+}
+
+.design .images img{
+    width: 350px;
+    height: 350px;
+}
+
+.design button{
+    padding: 20px 50px;
+    border: 2px solid #F7D7C8;
+    color: #F7D7C8;
+    font-size: 25px;
+}
+
+/* -- Living Life ---------------------------------------------------------------------  */
+
+.living-life{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 60px;
+    padding: 120px;
+}
+
+.living-life .left{
+    padding: 20px;
+    line-height: 1.5;
+    width: 500px;
+}
+
+.living-life .left h3{
+    color: #F7D7C8;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.living-life .left p,
+.living-life .right p{
+    font-size: 17px;
+}
+
+.living-life .right{
+    padding: 20px;
+    line-height: 1.5;
+    text-align: left;
+    width: 500px;
+}
+
+.living-life .right img{
+    margin-top: 50px;
+}
+
+
+/* --  Information security -------------------------------------------------------------------------  */
+
+.security{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.5;
+    padding: 40px 0;
+}
+
+.security h2{
+    font-size: 60px;
+    padding: 20px;
+    color: #F7D7C8;
+}
+
+.security .phone{
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.security .phone i{
+    color: #F7D7C8;
+}
+
+.security h3{
+    color: #F7D7C8;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.security address{
+    font-size: 20px;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.security hr{
+    width: 300px;
+    padding: 8px;
+    margin-top: 20px;
+    background-color: #F7D7C8;
+}
+
+.security p{
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+/* -- Footer ------------------------------------------------------------------------------  */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    color: #fff;
+    padding: 100px;
+}
+
+.footer p{
+    font-size: 20px;
+    width: 520px;
+    background-color: #333;
+    text-align: center;
+}
+
+
+
+
+

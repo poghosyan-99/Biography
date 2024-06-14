@@ -1,0 +1,568 @@
+/* ---- Menu Media ---------------------------------------------------------- */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .menu {
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 35px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .menu {
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 35px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .menu {
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .menu {
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/* -- biography media ------------------------------------------------------------ */
+@media (min-width: 320px) and (max-width: 480px) {
+    .biography{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .biography img{
+        width: 280px;
+        height: 280px;
+    }
+
+    .biography p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .biography{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .biography img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .biography p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .biography{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .biography p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .biography{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .biography p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+    }
+}
+
+/* -- Simpe Headline  ------------------------------------------------------------------------------  */
+
+@media (min-width: 320px) and (max-width: 480px){
+    .simple-headline{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .simple-headline .left-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+        line-height: 1.5;
+        padding: 0;
+    }
+
+    .simple-headline .left-right .left{
+        justify-content: start;
+        width: 100%;
+        height: auto;
+    }
+
+    .simple-headline .left-right .left h2{
+        font-size: 35px;
+    }
+
+    .simple-headline .left-right .left h3{
+        font-size: 20px;
+    }
+
+    .simple-headline .left-right .right{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (min-width: 480px) and (max-width: 768px){
+    .simple-headline{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .simple-headline .left-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+        padding: 0;
+        line-height: 1.5;
+    }
+
+    .simple-headline .left-right .left{
+        justify-content: start;
+        width: 100%;
+        height: auto;
+    }
+
+    .simple-headline .left-right .left h2{
+        font-size: 35px;
+    }
+
+    .simple-headline .left-right .left h3{
+        font-size: 20px;
+    }
+
+    .simple-headline .left-right .right{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .simple-headline{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .simple-headline .left-right{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: row;
+        text-align: justify;
+        padding: 0;
+        line-height: 1.5;
+    }
+
+    .simple-headline .left-right .left{
+        justify-content: start;
+        height: auto;
+    }
+
+    .simple-headline .left-right .left h2{
+        font-size: 35px;
+    }
+
+    .simple-headline .left-right .left h3{
+        font-size: 20px;
+    }
+
+    .simple-headline .left-right .right{
+        height: auto;
+    }
+    
+}
+@media (min-width: 1024px) and (max-width: 1280px){
+    .simple-headline{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .simple-headline .left-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 80px;
+        gap: 70px;
+        text-align: justify;
+        line-height: 1.5;
+    }
+
+    .simple-headline .left-right .left{
+        justify-content: start;
+        width: 530px;
+        height: 450px;
+        padding: 20px;
+    }
+
+    .simple-headline .left-right .right{
+        width: 500px;
+        height: 450px;
+        padding: 20px;
+    }
+
+    .simple-headline .page{
+        margin-top: 100px;
+    }
+}
+
+/* --  Design Media ------------------------------------------------------------------------------  */
+
+@media (min-width: 320px) and (max-width: 480px){    
+    .design .header{
+        width: 100%;
+    }
+
+    .design .header h1{
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .design .header i{
+        font-size: 50px;
+    }
+    
+    .design .header h3{
+        font-size: 18px;
+    }
+
+    .design .images{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        padding: 70px 0;
+    }
+
+    .design .images img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .design button{
+        padding: 20px;
+        font-size: 20px;
+    }
+}
+@media (min-width: 480px) and (max-width: 768px){
+    .design .header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .design .header h1{
+        width: 80%;
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .design .header i{
+        font-size: 50px;
+    }
+    
+    .design .header h3{
+        font-size: 18px;
+    }
+
+    .design .images{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        padding: 70px 0;
+    }
+
+    .design .images img{
+        width: 60%;
+        height: 60%;
+    }
+
+    .design button{
+        padding: 20px 40px;
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .design .header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .design .header h1{
+        width: 80%;
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .design .header h3{
+        font-size: 20px;
+    } 
+
+    .design .images{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1280px){
+    .design .header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .design .header h1{
+        width: 80%;
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .design .header i{
+        font-size: 50px;
+    }
+    
+    .design .header h3{
+        font-size: 18px;
+    }
+
+    .design .images{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .design .images img{
+        width: 280px;
+        height: 280px;
+    }
+
+    .design button{
+        padding: 20px 40px;
+        font-size: 20px;
+    }
+}
+
+/* -- Living Life Media ------------------------------------------------------------------------------  */
+
+@media (min-width: 320px) and (max-width: 480px){
+    .living-life{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .living-life .left,
+    .living-life .right{
+        width: 100%;
+    }
+}
+@media (min-width: 480px) and (max-width: 768px){
+    .living-life{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .living-life .left,
+    .living-life .right{
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .living-life{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    .living-life .left,
+    .living-life .right{
+        width: 450px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1280px){
+    .living-life{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .living-life .left,
+    .living-life .right{
+        width: 450px;
+    }
+}
+
+/* --  Security Media ------------------------------------------------------------------------------  */
+
+@media (min-width: 320px) and (max-width: 480px){
+    .security h2{
+        font-size: 40px;
+        font-weight: normal;
+        text-align: center;
+    }
+    .security .phone{
+        font-size: 20px;
+    }
+    .security hr{
+        width: 60%;
+        padding: 5px;
+    }
+    .security p{
+        width: 70%;
+        font-size: 18px;
+    }
+
+}
+@media (min-width: 480px) and (max-width: 768px){
+    .security h2{
+        font-size: 50px;
+        font-weight: normal;
+        text-align: center;
+    }
+    .security .phone{
+        font-size: 22px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .security h2{
+        font-size: 50px;
+        font-weight: normal;
+        text-align: center;
+    }
+    .security .phone{
+        font-size: 25px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1280px){
+    .security h2{
+        font-size: 60px;
+    }
+    .security .phone{
+        font-size: 25px;
+    }
+}
+
+/* -- Footer ------------------------------------------------------------------------------  */
+
+@media (min-width: 320px) and (max-width: 480px){
+    .footer p{
+        width: 200px;
+    }
+}
+@media (min-width: 480px) and (max-width: 768px){
+    .footer {
+        width: 100%;
+    }
+    .footer p{
+        width: 300px;
+    }  
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .footer {
+        width: 100%;
+    }
+    .footer p{
+        width: 400px;
+    }  
+}
+@media (min-width: 1024px) and (max-width: 1280px){
+    .footer {
+        width: 100%;
+    }
+    .footer p{
+        width: 500px;
+    }  
+}
+
+/* --   ------------------------------------------------------------------------------  */
